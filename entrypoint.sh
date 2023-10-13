@@ -27,4 +27,4 @@ mv kubectl /usr/local/bin
 echo "$config" | base64 -d > /tmp/config
 export KUBECONFIG=/tmp/config
 
-sh -c "tree"
+sh -c "$command"
