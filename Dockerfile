@@ -12,7 +12,7 @@ LABEL com.github.actions.icon="terminal"
 LABEL com.github.actions.color="blue"
 
 RUN apk add --no-cache curl
-
+RUN apk add --no-cache git
 COPY LICENSE README.md /
 COPY entrypoint.sh /entrypoint.sh
 
